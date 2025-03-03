@@ -42,7 +42,7 @@ function renderTask(task){
             `
             <li class="h-full w-full text-3xl p-[4px] bg-white rounded-[10px]">
                 <div class="h-full w-full flex ${done ? 'line-through opacity-50 bg-green' : ''} ${pinned ? 'font-bold' : ''}" id="task" data-task-id = "${id}">
-                        <div class="h-fit w-full text-21xl bg-white rounded-l-[6px] p-1 text-balance break-normal">
+                        <div class="h-fit w-full text-21xl bg-white rounded-l-[6px] p-1 text-balance break-all ">
                             <p id="text">${task}</p>
                         </div>
                         <div class="h-full w-fit flex gap-[8px] justify-center items-center bg-white rounded-r-[6px] pr-[4px]" id="task_btns">
