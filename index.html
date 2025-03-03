@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="js/index.js" defer></script>
+</head>
+<body class="h-fit pb-10">
+    <h1 class="text-[50px] font-bold text-center py-6">
+        To Do List
+    </h1>
+    <container class="flex justify-center items-start w-full min-h-[600px] pt-4">
+        <main-wrapper class="h-fit w-[95%] sm:w-[60%] xl:w-[40%] bg-[#000000] rounded-[30px] shadow-2xl opacity-65 p-6 " id="main">
+            <form id="form" class="w-full h-[50px] flex animate-pulse duration-1000 hover:animate-none">
+                <input type="text" id="input" placeholder="Введите текст" class="w-full h-full rounded-l-[10px] pl-4">
+                <button type="submit" id="buttonSend" class="ml-[2px] h-full w-[60px] bg-white rounded-r-[10px] flex justify-center items-center">
+                    <img src="free-icon-send-736161.png" alt="" class=" w-[40px]">
+                </button>
+            </form>
+            <ul class="w-full h-full pt-8 grid gap-2" id="cont">
+                
+            </ul>
+        </main-wrapper>
+    </container>
+</body>
+</html>
